@@ -14,6 +14,8 @@ public class AutoLogin implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
+		// Github test
+		
 		// 크롬 드라이버 경로 설정
 		// (주석한 이유 : 셀레니움 의존성 주입에서 라이브러리의 버전이 4.6부터 크롬 드라이버를 자동으로 인식해서 따로 코드를 작성할 필요가 없음)
 		// System.setProperty("webdriver.chrome.driver", "C:\\chrome\\chrome.exe");
